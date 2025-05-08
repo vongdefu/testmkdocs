@@ -7,8 +7,6 @@ nav:
       - Page n: section/page-n.md
       - Page 2: section/page-2.md
 theme:
-  palette:
-    primary: amber
   name: material
   font:
     text: Open Sans
