@@ -7,7 +7,12 @@ nav:
       - Page n: section/page-n.md
       - Page 2: section/page-2.md
 theme:
+  palette:
+    primary: amber
   name: material
+  font:
+    text: Open Sans
+    code: Roboto Mono
   features:
     - navigation.instant
     - navigation.path
@@ -15,6 +20,9 @@ theme:
     - navigation.indexes
     - toc.follow
     - navigation.top
-
+  language: zh
 extra_css:
   - stylesheets/extra.css
+
+repo_url: https://github.com/vongdefu/testmkdocs
+copyright: Copyright &copy; 2016 - 2025 vongdefu
