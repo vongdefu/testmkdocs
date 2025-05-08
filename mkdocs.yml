@@ -1,6 +1,20 @@
 site_name: testmkdocs
 site_url: https://vongdefu.github.io/testmkdocs
+nav:
+  - 面渣系列:
+      - section/index.md
+      - Page 1: section/page-1.md
+      - Page n: section/page-n.md
+      - Page 2: section/page-2.md
 theme:
   name: material
   features:
+    - navigation.instant
     - navigation.path
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+
+extra_css:
+  - stylesheets/extra.css
