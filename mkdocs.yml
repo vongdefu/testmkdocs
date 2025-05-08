@@ -1,0 +1,4 @@
+site_name: testmkdocs
+site_url: https://vongdefu.github.io/testmkdocs
+theme:
+  name: material
